@@ -1,0 +1,10 @@
+---
+  - name: Install Needed Software packages
+    command: whmapi1 killpkg pkgname="{{item}}"
+    with_items:
+        - Plan 1
+        - Plan 2
+        - Plan 3
+        - Plan 4
+        - Plan 5
+        - Plan 6

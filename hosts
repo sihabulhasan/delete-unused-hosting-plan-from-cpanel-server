@@ -1,0 +1,4 @@
+[whm]
+server_1 ansible_port=server_port
+server_2 ansible_port=server_port
+server_3 ansible_port=server_port

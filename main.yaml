@@ -1,0 +1,13 @@
+# Ansible Script to maintain any cPanel/WHM Server
+# Author: Sihabul Hasan
+# Created on: 21 January 2023
+
+---
+- name: Maintain cPanel Servers
+  hosts: whm
+  become: yes
+  gather_facts: True
+  strategy: free
+    
+  roles:
+    - { role: delete-packages }
